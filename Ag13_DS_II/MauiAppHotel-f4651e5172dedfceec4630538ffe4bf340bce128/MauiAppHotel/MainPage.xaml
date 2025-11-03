@@ -31,6 +31,12 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button Text="Sobre"
+                    Clicked="OnSobreClicked"
+                    HorizontalOptions="Fill"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"/>
         </VerticalStackLayout>
     </ScrollView>
 
